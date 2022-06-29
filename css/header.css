@@ -1,0 +1,15 @@
+
+
+.container{
+    margin: 0px 130px;
+}
+
+.header {
+    background-color: var(--background__body-color);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+}
