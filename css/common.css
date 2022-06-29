@@ -9,4 +9,5 @@ body, input, button, input {-webkit-appearance: none;-moz-appearance: none;appea
 
 :root {
     --background__body-color: #000000;
+    --nav-item-color:#a8b908;
 }
