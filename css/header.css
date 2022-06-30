@@ -50,8 +50,61 @@
     right: 60px;
 }
 
+.header-down{
+    position: relative;
+}
+
 .header-title{
     color: var(--hover-color);
     font-size: 40px;
     font-weight: 400;
+    text-align: left;
+    position: absolute;
+    left:93px;
+    line-height: 50px;
+    margin-top: 172px;
+}
+
+.header-btn{
+    margin-top: 64px;
+}
+.header-button{
+margin-top: 164px;
+background-color: var(--nav-item-color);
+color:var(--color-btn);
+font-size: 18px;
+font-weight: 700;
+outline: 5px solid var(--nav-item-color);
+padding: 14px 36px;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+.header-suptitle{
+    color: var(--hover-color);
+    font-size: 18px;
+    margin-top: 42px;
+    
+}
+
+.header__picture{
+    position: relative;
+}
+.header__picture-img{
+    position: absolute;
+    right: 0;
+    margin-top: 78px;
+    
+}
+.footer_title{
+    width: 1439px;
+    position: absolute;
+    text-align: center;
+}
+.head-footertitel{
+    position: absolute;
+    text-align: center;
+    color: var(--hover-color);
+   
 }
