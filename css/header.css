@@ -74,11 +74,13 @@ background-color: var(--nav-item-color);
 color:var(--color-btn);
 font-size: 18px;
 font-weight: 700;
-outline: 5px solid var(--nav-item-color);
 padding: 14px 36px;
 text-decoration: none;
 text-transform: uppercase;
-
+transition: background-color 0.3 liner;
+}
+.header-button:hover {
+    background-color: var(--hover-color);
 }
 
 .header-suptitle{
@@ -98,13 +100,17 @@ text-transform: uppercase;
     
 }
 .footer_title{
-    width: 1439px;
-    position: absolute;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    padding-top: 140px;
+
+    
 }
 .head-footertitel{
-    position: absolute;
+   
     text-align: center;
     color: var(--hover-color);
-   
+    padding: 10px 10px 10px 120px;
+    top: 0;
 }
