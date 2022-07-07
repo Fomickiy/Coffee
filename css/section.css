@@ -1,5 +1,6 @@
 .section {
     padding: 100px 0;
+    background-color: var(--background__body-color);
 }
 
 .section__header {
@@ -10,7 +11,27 @@
 }
 
 .section__title{
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 40px;
     font-weight: bold;
+    color: var(--hover-color);
 }
+
+.card-desc{
+    display: flex;
+    justify-content: center
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    background-color:var(--color-cards) ;
+    width: 33%;
+    
+}
+
+
+.cards-holder{
+    display:flex ;
+    justify-content: space-between;
+    }
+

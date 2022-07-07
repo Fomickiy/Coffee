@@ -33,6 +33,7 @@ body, input, button, input {-webkit-appearance: none;-moz-appearance: none;appea
     --nav-item-color:#cee401;
     --hover-color: aliceblue;
     --color-btn:black;
+    --color-cards:#cee401;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Montserrat', sans-serif;
 
