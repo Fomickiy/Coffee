@@ -46,5 +46,16 @@
     text-align: left;
    
     }
-
-
+.price {
+display: flex;
+justify-content: space-between;
+margin: 0px 200px 20px 200px;
+}
+.price_one{
+width: 30%;
+outline: 5px solid var(--color-cards);
+font-size: 20px;
+padding: 36px 77px;
+text-align: left;
+color: var(--color-cards);
+}
