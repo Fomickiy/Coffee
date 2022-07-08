@@ -4,4 +4,27 @@
 
 .services__item{
     flex: 1 1 0;
+    margin-left: 200px;
+    padding-top: 107px;
+    position: relative;
+}
+
+.services__icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.services__titel{
+   
+    margin-bottom: 23px;
+    font-size: 25px;
+    color: var(--hover-color);
+}
+
+.services__text{
+    color: var(--services-color);
+    font-size: 18px;
+    margin-left: -53px;
 }
