@@ -49,13 +49,26 @@
 .price {
 display: flex;
 justify-content: space-between;
-margin: 0px 200px 20px 200px;
+margin:-65px 300px 20px 300px;
 }
 .price_one{
-width: 30%;
-outline: 5px solid var(--color-cards);
+width: 33%; 
+border: 3px solid var(--color-cards);
 font-size: 20px;
-padding: 36px 77px;
-text-align: left;
+padding: 48px 305px;;
 color: var(--color-cards);
+}
+
+
+
+.price_title {
+    margin: -46px -469px 51px -179px;
+
+    font-size: 35px;
+}
+
+.price_desc{
+    margin:-20px -20px 20px -250px;
+    font-size: 32px;
+    
 }
