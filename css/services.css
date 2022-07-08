@@ -1,0 +1,7 @@
+.services{
+    display: flex;
+}
+
+.services__item{
+    flex: 1 1 0;
+}
