@@ -1,5 +1,6 @@
 .services{
     display: flex;
+    margin-top: 200px;
 }
 
 .services__item{
